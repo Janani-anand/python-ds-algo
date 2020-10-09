@@ -12,7 +12,7 @@ def deleteduplicate(head):
             prev.next=nextnode
             itr=nextnode
         else:
-            s.add(itr.data)
+            h.add(itr.data)
             prev=itr
             itr=itr.next
     return head
